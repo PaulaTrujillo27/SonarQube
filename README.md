@@ -2,8 +2,9 @@
 
 #  Creación de Docker Compose 
 
-Como primera instancia, es importante crear un Docker Compose que contendrá lo sigyiente:
+Como primera instancia, es importante crear un Docker Compose que contendrá lo siguiente:
 
+```
 version: '2'
 
 services:
@@ -45,6 +46,8 @@ volumes:
   sonarqube_bundled-plugins:
   postgresql:
   postgresql_data:
+
+```
 
   Se realiza el comando: docker-compose up -d
 
